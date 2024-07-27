@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666;
+  letter-spacing: 0.5px;
+}
+img {
+  max-width: 100%;
+}
+
+h2,
+.h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex !important;
+}
+.tab-main-section {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-flow: wrap;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.tab-content {
+  width: 100%;
+  flex: 0 0 auto;
+}
+.logo-block {
+  margin-top: 15px;
+}
+
+.logo-block a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-tabs {
+  border: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.nav-tabs > li {
+  margin: 0 50px;
+}
+
+.nav-tabs > li > button.nav-link {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.nav-tabs > li > button.nav-link:hover,
+.nav-tabs > li > button.nav-link.active {
+  color: #29abe2;
+}
+.tab-content-wrap {
+  margin-top: 20px;
+}
+
+.car-company-details {
+  border: 1px solid #ebebeb;
+  padding: 20px;
+}
+
+.car-company-details .car-company-logo img {
+  height: 80px;
+}
+
+.car-company-details h2 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.car-company-details p {
+  font-size: 16px;
+}
+
+.specs-block {
+  border: 1px solid #ebebeb;
+  padding: 20px;
+}
+
+.specs-block table {
+  width: 100%;
+  border: 0;
+  margin: 0px;
+}
+
+.specs-block table tr td {
+  padding: 10px 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  font-size: 18px;
+}
+
+.specs-block table tr > td:first-child {
+  color: #000;
+}
+
+.specs-block h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.specs-block .button-group {
+  display: flex;
+  flex-flow: column;
+}
+
+.specs-block .button-group button {
+  width: 100%;
+  height: 50px;
+  background: #434343;
+  border: 1px solid #434343;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.specs-block .button-group button:nth-child(2) {
+  background: #fff;
+  color: #434343;
+}
+.specs-block .button-group button:hover {
+  color: #fff;
+  border-color: #29abe2;
+  background: #29abe2;
+}
+ul.slick-thumb {
+  display: flex !important;
+  justify-content: center;
+  bottom: 0;
+  position: relative;
+  margin: 15px auto auto auto;
+  width: 90%;
+}
+
+ul.slick-thumb li {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  opacity: 0.6;
+}
+ul.slick-thumb li.slick-active {
+  opacity: 1;
+}
+ul.slick-thumb li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 5px;
+  background-color: transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+ul.slick-thumb li.slick-active::before {
+  width: 100%;
+  background-color: #29abe2;
+}
+
+ul.slick-thumb li a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.slick-slider button.slick-arrow {
+  position: absolute;
+  top: auto;
+  left: 2.5%;
+  bottom: 25px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.slick-slider button.slick-arrow.next {
+  left: auto;
+  right: 2.5%;
+}
+
+.color-btn button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin: 0 5px 0px 0px;
+  border: 0;
+  border-radius: 0;
+  background-color: #666;
+}
+.color-btn button.black {
+  background-color: #000;
+}
+.color-btn button.gray {
+  background-color: #434343;
+}
+.color-btn button.yello {
+  background-color: #fff61c;
+}
+.color-btn button.sky {
+  background-color: #7340f7;
+}
+.color-btn button.purple {
+  background-color: #46228c;
+}
